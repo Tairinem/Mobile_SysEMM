@@ -10,6 +10,10 @@ import { withFormik } from 'formik';
 // import { Container } from './styles';
 
 export default class Login extends Component {
+  static navigationOptions = {
+    // title: "SysEMM"
+  };
+
   render() {
     const Form = (props) => (
       <Input
